@@ -1,13 +1,9 @@
 // Modules
 
-const john = "john";
-const peter = "peter";
-const secret = "Super Secret";
-
-const sayHi = (name) => {
-  console.log(` Hi there ${name}`);
-};
+const names = require("./first-module");
+const sayHi = require("./utils");
+console.log(names);
 
 sayHi("dylan");
-sayHi(john);
-sayHi(peter);
+sayHi(names.john);
+sayHi(names.peter);
