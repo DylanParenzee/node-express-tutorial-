@@ -1,5 +1,5 @@
 // Modules
-
+const superSecret = "shhhh this is a secret";
 const dylan = "Dylan";
 const susan = "Susan";
 
