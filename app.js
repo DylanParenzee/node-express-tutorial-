@@ -1,12 +1,10 @@
 // Modules
-const superSecret = "shhhh this is a secret";
-const dylan = "Dylan";
-const susan = "Susan";
 
-const sayHi = (name) => {
-  console.log(`${name}`);
-};
+const names = require("./4-names");
+const sayHi = require("./utils");
 
+// console.log(names);
+const { dylan, susan } = names;
 sayHi("John");
 sayHi(dylan);
 sayHi(susan);
