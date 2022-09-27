@@ -1,9 +1,12 @@
 // Modules
 
-const names = require("./first-module");
-const sayHi = require("./utils");
-console.log(names);
+const dylan = "Dylan";
+const susan = "Susan";
 
-sayHi("dylan");
-sayHi(names.john);
-sayHi(names.peter);
+const sayHi = (name) => {
+  console.log(`${name}`);
+};
+
+sayHi("John");
+sayHi(dylan);
+sayHi(susan);
