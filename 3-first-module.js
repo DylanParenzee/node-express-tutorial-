@@ -1,8 +1,9 @@
-//share
-const john = "john";
-const peter = "peter";
+const names = require("./4-names");
+const sayHi = require("./utils");
+require("./7-mind-grenade");
 
-//local
-const secret = "Super Secret";
-
-module.exports = { john, peter };
+// console.log(names);
+const { dylan, susan } = names;
+sayHi("John");
+sayHi(dylan);
+sayHi(susan);
