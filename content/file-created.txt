@@ -1,0 +1,1 @@
+Here is the file weve created using writeFileSync :  hello this is the first text file
