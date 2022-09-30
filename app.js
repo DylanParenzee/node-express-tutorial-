@@ -1,3 +1,1 @@
-const path = require("path");
-
-console.log(path.sep);
+const { readFileSync, writeFileSync } = require("fs");
