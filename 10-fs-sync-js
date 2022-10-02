@@ -10,3 +10,8 @@ writeFileSync(
   "./content/file-created.txt",
   `Here is the file weve created using writeFileSync :  ${first}`
 );
+
+writeFileSync(
+  "./content/another-file-created.txt",
+  "just practicing creating files using writeFileSync"
+);
