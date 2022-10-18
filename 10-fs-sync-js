@@ -13,5 +13,5 @@ writeFileSync(
 
 writeFileSync(
   "./content/another-file-created.txt",
-  "just practicing creating files using writeFileSync"
+  "just practicing creating files using writeFileSyncs"
 );
